@@ -66,7 +66,7 @@ private:
 	template < typename Self >
 	static auto& _top( Self& self ){
 		if ( self.empty() ) {
-			throw std::logic_error::logic_error( "Calling top on empty stack!" );
+		    throw std::logic_error::logic_error( "Calling top on empty stack!" );
 		}
 		return self.m_buffer[ self.m_size - 1 ];
 	}
