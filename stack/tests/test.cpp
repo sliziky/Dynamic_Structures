@@ -1,5 +1,5 @@
 #include "pch.h"
-#include "../queue/stack.h"
+#include "stack.h"
 
 
 TEST(Stack, Empty_stack) {
