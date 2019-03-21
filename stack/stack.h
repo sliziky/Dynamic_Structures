@@ -5,8 +5,8 @@
 template <typename T>
 class Stack {
 public:
-	using value_type 	  = T;
-	using reference		  = T & ;
+	using value_type      = T;
+	using reference	      = T & ;
 	using const_reference = const T &;
 
 	Stack() = default;
